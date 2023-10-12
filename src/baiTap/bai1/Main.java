@@ -53,6 +53,7 @@ public class Main {
             }
             if (!isExist) System.out.println("Không tồn tại sản phẩm " + productName);
         } catch (IOException e) {
+            System.out.println("Không đọc được dữ liệu!!");
         } catch (ClassNotFoundException e) {
             System.out.println("Không đọc được dữ liệu!!");
         }

@@ -124,9 +124,6 @@ public class Product implements Serializable {
 
     public void displayData() {
         System.out.println(productName.toUpperCase());
-        System.out.println("Id sản phẩm: " + productId);
-        System.out.println("Tên sản phẩm: " + productName);
-        System.out.println("Tên hãng: " + brand);
-        System.out.println("Giá bán: " + price);
+        System.out.println("Id sản phẩm: " + productId + " | " + "Tên sản phẩm: " + productName + " | " +"Tên hãng: " + brand + " | " + "Giá bán: " + price);
     }
 }
